@@ -1,0 +1,23 @@
+{
+  "name": "koatesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev": " nodemon app.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-logger": "^3.2.0",
+    "koa-redirect": "^0.2.1",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0",
+    "supertest": "^3.4.2"
+  }
+}
