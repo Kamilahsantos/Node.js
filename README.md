@@ -1,5 +1,19 @@
 # Node
 
-neste repositório irei publicar meus projetos de estudo em node e separar em algumas branchs de acordo com o que for utlizado.
 
-Branch Jest + Koa aplicação feita em node, tdd usando jest e servidor em koa.js
+#Caso tenha algum erro com porta em uso, execute o seguinte comando no seu prompt como administrador: 
+taskkill /F /IM node.exe
+
+#para instalar as dependências
+npm install
+
+#para rodar no modo de desenvolvimento:
+npm run dev
+
+#para executar os testes (jest):
+npm run test
+
+#plugin para o vscode
+para facilitar a visualização dos resultados do teste, eu indico o plugin Jest Test Explorer
+
+
